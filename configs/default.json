@@ -1,0 +1,30 @@
+{
+  "profile_name": "default",
+  "tesseract_path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+  "tessdata_dir": "C:\\Program Files\\Tesseract-OCR\\tessdata",
+  "language": "eng+rus",
+  "psm": 6,
+  "oem": 3,
+  "threshold_mode": "adaptive_mean",
+  "threshold_value": 150,
+  "adaptive_block_size": 45,
+  "adaptive_c": 0,
+  "blur_kernel": 7,
+  "scale": 4.0,
+  "invert": false,
+  "grayscale": true,
+  "auto_ocr": false,
+  "auto_interval_ms": 1500,
+  "whitelist": "",
+  "blacklist": "",
+  "min_confidence": 10,
+  "preserve_spaces": true,
+  "user_defined_dpi": 300,
+  "extra_config": "",
+  "region": {
+    "left": 284,
+    "top": 307,
+    "width": 240,
+    "height": 60
+  }
+}
