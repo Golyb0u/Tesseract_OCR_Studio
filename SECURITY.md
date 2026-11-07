@@ -11,7 +11,7 @@
 
 Please report security issues privately through GitHub Security Advisories:
 
-- <https://github.com/Golybou/Tesseract_OCR_Studio/security/advisories/new>
+- <https://github.com/Golyb0u/Tesseract_OCR_Studio/security/advisories/new>
 
 Do not open a public issue for a vulnerability. Include a description, the affected
 version, and the steps needed to reproduce the problem.

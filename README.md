@@ -10,9 +10,9 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platforms](https://img.shields.io/badge/platform-Windows-46536b)
 ![Tesseract](https://img.shields.io/badge/tesseract-5.x-3C78B4)
-![CI](https://github.com/Golybou/Tesseract_OCR_Studio/actions/workflows/ci.yml/badge.svg)
-![Release](https://github.com/Golybou/Tesseract_OCR_Studio/actions/workflows/release.yml/badge.svg)
-![GitHub stars](https://img.shields.io/github/stars/Golybou/Tesseract_OCR_Studio?style=social)
+![CI](https://github.com/Golyb0u/Tesseract_OCR_Studio/actions/workflows/ci.yml/badge.svg)
+![Release](https://github.com/Golyb0u/Tesseract_OCR_Studio/actions/workflows/release.yml/badge.svg)
+![GitHub stars](https://img.shields.io/github/stars/Golyb0u/Tesseract_OCR_Studio?style=social)
 
 **Tesseract OCR Studio** is a desktop OCR workbench for Windows.
 It captures a screen region or loads an existing image, previews exactly what
@@ -193,7 +193,7 @@ python main.py
 ## Установка и запуск
 
 ```bash
-git clone https://github.com/Golybou/Tesseract_OCR_Studio.git
+git clone https://github.com/Golyb0u/Tesseract_OCR_Studio.git
 cd Tesseract_OCR_Studio
 python -m venv .venv
 .venv\Scripts\activate
@@ -453,10 +453,12 @@ Release.
 
 ## Автор и контакты
 
-- Автор и мейнтейнер: **Golybou**
-- Репозиторий: <https://github.com/Golybou/Tesseract_OCR_Studio>
-- Issues и баги: <https://github.com/Golybou/Tesseract_OCR_Studio/issues>
-- Discussions: <https://github.com/Golybou/Tesseract_OCR_Studio/discussions>
+- Автор и мейнтейнер: **Golyb0u**
+- GitHub: <https://github.com/Golyb0u>
+- Репозиторий: <https://github.com/Golyb0u/Tesseract_OCR_Studio>
+- Релизы: <https://github.com/Golyb0u/Tesseract_OCR_Studio/releases>
+- Issues и баги: <https://github.com/Golyb0u/Tesseract_OCR_Studio/issues>
+- Discussions: <https://github.com/Golyb0u/Tesseract_OCR_Studio/discussions>
 
 ***
 
@@ -613,7 +615,7 @@ stored in `%LOCALAPPDATA%\TesseractStudio\configs` instead of inside
 ## Install and run
 
 ```bash
-git clone https://github.com/Golybou/Tesseract_OCR_Studio.git
+git clone https://github.com/Golyb0u/Tesseract_OCR_Studio.git
 cd Tesseract_OCR_Studio
 python -m venv .venv
 .venv\Scripts\activate
@@ -866,10 +868,12 @@ Troubleshooting:
 
 ## Author and contacts
 
-- Author and maintainer: **Golybou**
-- Repository: <https://github.com/Golybou/Tesseract_OCR_Studio>
-- Issues and bugs: <https://github.com/Golybou/Tesseract_OCR_Studio/issues>
-- Discussions: <https://github.com/Golybou/Tesseract_OCR_Studio/discussions>
+- Author and maintainer: **Golyb0u**
+- GitHub: <https://github.com/Golyb0u>
+- Repository: <https://github.com/Golyb0u/Tesseract_OCR_Studio>
+- Releases: <https://github.com/Golyb0u/Tesseract_OCR_Studio/releases>
+- Issues and bugs: <https://github.com/Golyb0u/Tesseract_OCR_Studio/issues>
+- Discussions: <https://github.com/Golyb0u/Tesseract_OCR_Studio/discussions>
 
 ***
 

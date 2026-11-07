@@ -5,7 +5,7 @@ Thanks for improving **Tesseract OCR Studio**.
 ## Development setup
 
 ```bash
-git clone https://github.com/Golybou/Tesseract_OCR_Studio.git
+git clone https://github.com/Golyb0u/Tesseract_OCR_Studio.git
 cd Tesseract_OCR_Studio
 python -m venv .venv
 .venv\Scripts\activate

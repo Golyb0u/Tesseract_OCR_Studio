@@ -9,7 +9,7 @@ description = "PyQt5 OCR workbench for Tesseract with a bilingual RU/EN interfac
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "Tesseract OCR Studio contributors" }]
+authors = [{ name = "Golyb0u" }]
 keywords = ["ocr", "tesseract", "pyqt5", "desktop", "screenshot", "windows"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -34,10 +34,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Golybou/Tesseract_OCR_Studio"
-Repository = "https://github.com/Golybou/Tesseract_OCR_Studio.git"
-Issues = "https://github.com/Golybou/Tesseract_OCR_Studio/issues"
-Changelog = "https://github.com/Golybou/Tesseract_OCR_Studio/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/Golyb0u/Tesseract_OCR_Studio"
+Repository = "https://github.com/Golyb0u/Tesseract_OCR_Studio.git"
+Issues = "https://github.com/Golyb0u/Tesseract_OCR_Studio/issues"
+Changelog = "https://github.com/Golyb0u/Tesseract_OCR_Studio/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
