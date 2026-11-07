@@ -1,0 +1,50 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build Windows executable
+    runs-on: windows-latest
+    env:
+      QT_QPA_PLATFORM: offscreen
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-dev.txt
+          python -m pip install pyinstaller
+
+      - name: Run tests
+        run: python -m pytest tests -q
+
+      - name: Build executable
+        run: python -m PyInstaller --noconfirm --clean TesseractOCRStudio.spec
+
+      - name: Package release asset
+        shell: pwsh
+        run: |
+          Compress-Archive -Path dist/TesseractOCRStudio.exe, configs -DestinationPath dist/TesseractOCRStudio-windows.zip -Force
+
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/TesseractOCRStudio-windows.zip
+            dist/TesseractOCRStudio.exe
+          body_path: CHANGELOG.md
+          fail_on_unmatched_files: true
+          generate_release_notes: false
